@@ -12,7 +12,7 @@ f = interp1d(x, y, kind='linear')
 # create a new set of x-values for the fitted curve
 x_new = np.linspace(x[0], x[-1], num=1000, endpoint=True)
 
-# evaluate the interpolation function at the new x-values
+# evaluate the interpodsfkjaffdlksafdalkjflation function at the new x-values
 y_new = f(x_new)
 
 # create the scatter plot
